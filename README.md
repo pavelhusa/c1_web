@@ -7,6 +7,6 @@ V tomto repozitari budou pribyvat priklady, ulohy, cviceni, na kterych budeme pr
 ## Jak si stahnout aktualni verzi
 - Otevrete si slozku, do ktere jste si stahli repozitar.
 - spustite prikaz:
-> git fetch
+> git fetch origin  
 
 **!!!POZOR!!! pokud spustite prikaz git pull, provede se merge s vasimi lokalnimi soubory**
