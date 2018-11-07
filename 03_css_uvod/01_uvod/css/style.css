@@ -1,1 +1,17 @@
 /* Moje prvni CSS */
+
+body {
+    background-color: lightgray;
+}
+
+p {
+    color: red;
+}
+
+.greenText {
+    color: green;
+}
+
+#bigBird {
+    width: 100%;
+}
