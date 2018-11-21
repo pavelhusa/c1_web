@@ -1,0 +1,19 @@
+/* CSS template */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container>aside {
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
