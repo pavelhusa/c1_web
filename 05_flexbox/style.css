@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+header {
+    background-color: red;
+}
+
+aside {
+    width: 200px;
+}
+
+aside.left {
+    background-color: yellow;
+}
+
+main {
+    background-color: lightblue;
+    width: 100%;
+    text-align: left;
+}
+
+aside.right {
+    background-color: pink;
+}
+
+footer {
+    background: green;
+}
