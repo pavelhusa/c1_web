@@ -1,0 +1,54 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.item {
+    text-align: center;
+}
+
+#content {
+    align-items: stretch;
+}
+
+header {
+    background-color: orange;
+}
+
+aside {
+    min-width: 100px;
+    max-width: 100px;
+    height: 100%;
+}
+
+aside.left {
+    background-color: yellow;
+}
+
+aside.right {
+    background-color: pink;
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: green;
+}

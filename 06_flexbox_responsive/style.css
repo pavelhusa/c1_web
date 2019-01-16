@@ -50,10 +50,32 @@ footer {
     height: 50px;
 }
 
-.box {
-    background-color: cyan;
-    display: inline-block;
-    text-align: center;
-    width: calc(100% / 4 - 4px);
-    height: calc(100% / 4 - 4px);
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+    }
+    .left {
+        order: 2;
+    }
+    main {
+        order: 3;
+    }
+    .right {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .left {
+        order: 2;
+    }
+    main {
+        order: 3;
+    }
+    .right {
+        order: 1;
+    }
 }
